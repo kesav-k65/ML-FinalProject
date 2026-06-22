@@ -33,7 +33,7 @@ r_vals = r_regression(Xdf,y)
 plt.hist(r_vals,bins=100)
 plt.xlabel('R-value')
 plt.ylabel('# of features')
-#good shit
+#frequency chart of r-values
 
 #inspect correlation values
 r_zeroes = Xdf.columns[np.abs(r_vals) < 0.05]
